@@ -2,7 +2,7 @@
 
 Una página web interactiva hecha con todo el amor del mundo para celebrar el cumpleaños 29 de **Jolyne García** — mi prometida.
 
-**🔗 Demo en vivo:** [Ver página](https://tu-proyecto.vercel.app) ← 
+**🔗 Demo en vivo:** [Ver página](https://jolyne-birthday-qc57.vercel.app/) ← 
 
 ---
 
