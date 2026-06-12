@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Happy Birthday Jolyne 🌊</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Nunito:wght@300;400;600;700&family=Zen+Dots&display=swap" rel="stylesheet">
+
+<!-- ── Estilos ── -->
+<link rel="stylesheet" href="css/base.css">
+<link rel="stylesheet" href="css/sections.css">
+<link rel="stylesheet" href="css/envelope.css">
+<link rel="stylesheet" href="css/gallery.css">
+<link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+
+<canvas id="stars-canvas"></canvas>
+<body class="splash-open"></body>
+
+<!-- ══════════════════════════════════
+     SPLASH SCREEN
+     ══════════════════════════════════ -->
+<div id="splash">
+  <canvas id="splash-canvas"></canvas>
+  <div class="splash-inner">
+
+    <div class="splash-diamond">
+      <div class="splash-diamond-inner"></div>
+    </div>
+
+    <p class="sp-line sp-tag">12 de Junio · Para: Jolyne García</p>
+
+    <p class="sp-line sp-hey">Psst...</p>
+
+    <p class="sp-line sp-sub">
+      Hay algo esperándote...
+    </p>
+
+    <h2 class="sp-line sp-title">¿Estás<br>lista?</h2>
+
+    <p class="sp-line sp-ready">— Are you ready?? —</p>
+
+    <button id="splash-btn">
+      ¡¡ LET'S GOOO !! 🎂🎉
+    </button>
+
+  </div>
+</div>
+
+
+<!-- ══════════════════════════════════
+     NAVEGACIÓN
+     ══════════════════════════════════ -->
+<nav>
+  <a href="#sobre-ella">Sobre ella</a>
+  <a href="#galeria">Galería</a>
+  <a href="#historia">Historia</a>
+  <a href="#musica">Música</a>
+  <a href="#razones">29 razones</a>
+  <a href="#carta">Mi carta</a>
+  <button id="sound-toggle" title="Silenciar / activar sonido">🔊</button>
+</nav>
+
+<!-- ══════════════════════════════════
+     HERO
+     ══════════════════════════════════ -->
+<section id="hero">
+  <div class="jojo-diamond"><div class="jojo-diamond-inner"></div></div>
+  <p class="hero-tag">12 de junio &middot; 29 años &middot; Monterrey, México</p>
+  <h1 class="hero-title">
+    <span class="italic">Feliz</span><br>
+    <span class="teal">cumpleaños</span><br>
+    Jolyne
+  </h1>
+  <p class="hero-subtitle">mi esposa &nbsp;&middot;&nbsp; mi beba, mi hogar</p>
+  <div class="hero-badges">
+    <span class="badge">🎮 Blue Archive</span>
+    <span class="badge">🌊 JoJo's Bizarre</span>
+    <span class="badge">🎤 Hatsune Miku</span>
+    <span class="badge">🍜 Ramen lover</span>
+    <span class="badge">🎭 Cosplay</span>
+    <span class="badge">🎵 Cantante</span>
+    <span class="badge">🎸 Katy Perry fan</span>
+    <span class="badge">📚 Maestra de inglés</span>
+  </div>
+  <div class="hero-line"></div>
+  <p class="hero-intro">
+    Esta página la hice para ti, mi amor.<br>
+    <strong>Todo lo que eres merece ser celebrado. ✦</strong>
+  </p>
+  <p class="scroll-hint">↓ &nbsp; Scroll para explorar</p>
+</section>
+
+<!-- ══════════════════════════════════
+     SOBRE ELLA
+     ══════════════════════════════════ -->
+<section id="sobre-ella">
+  <p class="s-tag reveal">Ella es única</p>
+  <h2 class="s-title reveal">Todo lo que <em>es</em> Jolyne</h2>
+  <div class="personality-grid reveal">
+    <div class="p-card"><div class="p-icon">🌊</div><p class="p-label">Anime favorito</p><p class="p-value">JoJo's Bizarre Adventure<br><span style="font-size:0.75rem;color:var(--muted)">Tanto que lleva su nombre</span></p></div>
+    <div class="p-card"><div class="p-icon">🎮</div><p class="p-label">Juego favorito</p><p class="p-value">Blue Archive<br><span style="font-size:0.75rem;color:var(--muted)">Fan de Yuuka</span></p></div>
+    <div class="p-card"><div class="p-icon">🎤</div><p class="p-label">Le encanta cantar</p><p class="p-value">Miku, Katy y toda la escena Vocaloid</p></div>
+    <div class="p-card"><div class="p-icon">🎭</div><p class="p-label">Cosplay</p><p class="p-value">Le apasiona crear y encarnar personajes</p></div>
+    <div class="p-card"><div class="p-icon">🍜</div><p class="p-label">Su debilidad</p><p class="p-value">Ramen<br><span style="font-size:0.75rem;color:var(--muted)">No se le puede decir que no</span></p></div>
+    <div class="p-card"><div class="p-icon" style="color:var(--teal)">◆</div><p class="p-label">Color favorito</p><p class="p-value" style="color:var(--teal);font-weight:700">Turquesa</p></div>
+    <div class="p-card"><div class="p-icon">🎸</div><p class="p-label">Artista favorita</p><p class="p-value">Katy Perry<br><span style="font-size:0.75rem;color:var(--muted)">Super fan de toda la vida</span></p></div>
+    <div class="p-card"><div class="p-icon">📚</div><p class="p-label">Su trabajo</p><p class="p-value">Maestra de inglés<br><span style="font-size:0.75rem;color:var(--muted)">Además habla otros idiomas</span></p></div>
+    <div class="p-card"><div class="p-icon">🧠</div><p class="p-label">Cómo es</p><p class="p-value">Super inteligente, cariñosa, apasionada</p></div>
+    <div class="p-card"><div class="p-icon">💍</div><p class="p-label">Dato importante</p><p class="p-value"><em style="color:var(--teal)">Ella me pidió matrimonio</em><br><span style="font-size:0.75rem;color:var(--muted)">1 de abril, 2026</span></p></div>
+    <div class="p-card"><div class="p-icon">🌸</div><p class="p-label">Vibe</p><p class="p-value">Anime girl, gamer, artista, maestra, protagonista</p></div>
+    <div class="p-card"><div class="p-icon">📍</div><p class="p-label">Desde</p><p class="p-value">México 🇲🇽</p></div>
+  </div>
+</section>
+
+<!-- ══════════════════════════════════
+     GALERÍA 3D
+     ══════════════════════════════════ -->
+<section id="galeria">
+  <p class="s-tag reveal">Nosotras</p>
+  <h2 class="s-title reveal">Nuestros <em>momentos</em></h2>
+  <p class="reveal" style="text-align:center;color:var(--muted);font-size:0.82rem;margin-top:-2rem;margin-bottom:1.5rem;letter-spacing:0.05em;">
+    🖱️ Arrastra para girar &nbsp;&middot;&nbsp; 📱 Desliza &nbsp;&middot;&nbsp; 🖼️ Click para expandir &nbsp;&middot;&nbsp; ▶ Videos incluidos
+  </p>
+  <div id="gallery3d-wrap">
+    <canvas id="gallery3d-canvas"></canvas>
+    <div id="g3d-hint">arrastra &nbsp;&middot;&nbsp; gira &nbsp;&middot;&nbsp; explora &nbsp;&middot;&nbsp; click para abrir</div>
+  </div>
+</section>
+
+<!-- ══════════════════════════════════
+     HISTORIA
+     ══════════════════════════════════ -->
+<section id="historia">
+  <p class="s-tag reveal">Nuestra historia</p>
+  <h2 class="s-title reveal">De <em>conocidas</em> a prometidas</h2>
+  <div class="timeline">
+    <div class="mem-item reveal">
+      <div class="mem-dot"></div>
+      <div class="mem-content">
+        <span class="mem-date">27 de Noviembre 2025</span>
+        <h3 class="mem-title">La primera vez que hablamos</h3>
+        <p class="mem-text">Un mensaje cualquiera terminó cambiando mi vida para siempre. Lo que comenzó como una conversación se convirtió en nuestra historia.</p>
+        <span class="mem-emoji">💬</span>
+      </div>
+      <div class="mem-content"></div>
+    </div>
+    <div class="mem-item reveal">
+      <div class="mem-dot" style="animation:pulse-teal 2s infinite;"></div>
+      <div class="mem-content"></div>
+      <div class="mem-content">
+        <span class="mem-date">27 de Diciembre, 2025</span>
+        <h3 class="mem-title">El día que te pedí ser mi novia</h3>
+        <p class="mem-text">Ese día dejamos de imaginar lo que podíamos ser y empezamos a construir lo que somos hoy.</p>
+        <span class="mem-emoji">💚</span>
+      </div>
+    </div>
+    <div class="mem-item reveal">
+      <div class="mem-dot"></div>
+      <div class="mem-content">
+        <span class="mem-date">1 de Abril, 2026</span>
+        <h3 class="mem-title">Mi primer viaje a Monterrey</h3>
+        <p class="mem-text">Después de tantos mensajes y llamadas, por fin pude sentir que eras real entre mis brazos.</p>
+        <span class="mem-emoji">✈️</span>
+      </div>
+      <div class="mem-content"></div>
+    </div>
+    <div class="mem-item reveal">
+      <div class="mem-dot"></div>
+      <div class="mem-content"></div>
+      <div class="mem-content">
+        <span class="mem-date">1 de Abril, 2026</span>
+        <h3 class="mem-title">Ella me pidió matrimonio</h3>
+        <p class="mem-text">En medio de todos nuestros sueños, llegó una pregunta que cambió nuestro futuro para siempre.</p>
+        <span class="mem-emoji">💍</span>
+      </div>
+    </div>
+    
+    <div class="mem-item reveal">
+      <div class="mem-dot" style="animation:pulse-teal 2s infinite;"></div>
+      <div class="mem-content">
+        <span class="mem-date">21 de junio, 2026</span>
+        <h3 class="mem-title">Mi segundo viaje</h3>
+        <p class="mem-text">Volver a verte confirmó algo que ya sabía: nunca existe suficiente tiempo cuando estoy contigo.</p>
+        <span class="mem-emoji">🌊</span>
+      </div>
+      <div class="mem-content"></div>
+    </div>
+    <div class="mem-item reveal">
+      <div class="mem-dot"></div>
+      <div class="mem-content"></div>
+      <div class="mem-content">
+        <span class="mem-date">12 de Junio, 2026</span>
+        <h3 class="mem-title">Tu cumpleaños 29</h3>
+        <p class="mem-text">Hoy celebramos tu vida, pero también todo lo hermoso que trajiste a la mía desde que llegaste.</p>
+        <span class="mem-emoji">🎂</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════════════════
+     MÚSICA
+     ══════════════════════════════════ -->
+<section id="musica">
+  <p class="s-tag reveal">Nuestra banda sonora</p>
+  <h2 class="s-title reveal">Las canciones que nos <em>definen</em></h2>
+  <div class="playlist reveal">
+    <div class="track" data-query="Katy Perry ALL THE LOVE"><span class="track-num">01</span><div class="track-info"><p class="track-name">[ Canción favorita de Katy Perry ]</p><p class="track-artist">Katy Perry</p></div><p class="track-note">Ya sé que todas, pero la mía es esta...</p></div>
+    <div class="track" data-query="Hatsune Miku Romeo and Cinderella"><span class="track-num">02</span><div class="track-info"><p class="track-name">[ Canción favorita de Miku ]</p><p class="track-artist">Hatsune Miku / Vocaloid</p></div><p class="track-note">La que canta cuando nadie escucha</p></div>
+    <div class="track" data-query="Taeyeon Gravity"><span class="track-num">03</span><div class="track-info"><p class="track-name">[ Canción especial dedicada a ella ]</p><p class="track-artist">Taeyeon</p></div><p class="track-note">Ella es mi, gravedad, mi universo</p></div>
+    <div class="track" data-query="ATB Ecstasy"><span class="track-num">04</span><div class="track-info"><p class="track-name">[ Nuestra canción ]</p><p class="track-artist">ATB</p></div><p class="track-note">La nuestra ♡</p></div>
+    <div class="track" data-query="Dido Thank You"><span class="track-num">05</span><div class="track-info"><p class="track-name">[ Canción que me mandó ]</p><p class="track-artist">Dido</p></div><p class="track-note">Me la mandó y no la olvido</p></div>
+    <div class="track" data-query="Katy Parry Birthday"><span class="track-num">06</span><div class="track-info"><p class="track-name">[ Feliz Cumpleaños Amor~]</p><p class="track-artist">🪅🎊🎁</p></div><p class="track-note">Tu canción de cumpleaños</p></div>
+
+    <!-- Reproductor -->
+    <div id="player-panel">
+      <div class="player-inner">
+        <div id="player-art">🎵</div>
+        <div class="player-info">
+          <p id="player-track-name">—</p>
+          <p id="player-artist">—</p>
+          <div class="player-bar-wrap" id="bar-wrap">
+            <div id="player-bar"></div>
+            <div id="player-bar-handle"></div>
+          </div>
+        </div>
+        <div class="player-controls">
+          <span id="player-time">0:00</span>
+          <button id="player-btn" aria-label="Play/Pause">
+            <svg id="icon-play"  viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>
+            <svg id="icon-pause" viewBox="0 0 24 24" style="display:none"><path d="M6 19h4V5H6zm8-14v14h4V5z"/></svg>
+            <svg id="icon-load"  viewBox="0 0 24 24" style="display:none"><path d="M12 4V1L8 5l4 4V6c3.31 0 6 2.69 6 6s-2.69 6-6 6-6-2.69-6-6H4c0 4.42 3.58 8 8 8s8-3.58 8-8-3.58-8-8-8z"><animateTransform attributeName="transform" type="rotate" from="0 12 12" to="360 12 12" dur="1s" repeatCount="indefinite"/></path></svg>
+          </button>
+        </div>
+      </div>
+      <p class="player-note">Preview 30 seg · Click en otra canción para cambiar</p>
+      <p id="player-error">No se encontró preview en iTunes :(</p>
+    </div>
+    <audio id="audio-el"></audio>
+  </div>
+</section>
+
+<!-- ══════════════════════════════════
+     29 RAZONES
+     ══════════════════════════════════ -->
+<section id="razones">
+  <p class="s-tag reveal">Pequeñas verdades</p>
+  <h2 class="s-title reveal">29 razones por las que te <em>amo</em>, Jolyne</h2>
+  <div class="razones-intro reveal">
+    Toca cada carta para descubrir una razón.<br>
+    <span style="font-size:0.8rem;color:var(--teal)">Una por cada año increíble de tu existencia 💚</span>
+  </div>
+  <div class="razones-grid" id="razones-grid"></div>
+  <p class="razones-progress" id="razones-progress">
+    Has descubierto <span id="rcount">0</span> de 29 razones
+  </p>
+</section>
+
+<!-- ══════════════════════════════════
+     CARTA 
+     ══════════════════════════════════ -->
+<section id="carta">
+  <p class="s-tag reveal">Solo para ti</p>
+  <h2 class="s-title reveal">Mi <em>carta</em></h2>
+  <div class="envelope-scene reveal" id="envelope-scene">
+    <div class="env-hint" id="env-hint">
+      <span class="pulse-dot"></span>
+      Toca el sobre para abrirlo
+    </div>
+    <div class="env-perspective" style="position:relative;">
+      <div class="env-letter" id="env-letter">
+        <div class="letter-ruled">
+          <div class="letter-ruled-heading"></div>
+          <div class="letter-ruled-line" style="width:62%;animation-delay:0.7s"></div>
+          <div class="letter-ruled-line" style="width:88%;animation-delay:0.85s"></div>
+          <div class="letter-ruled-line" style="width:81%;animation-delay:1.0s"></div>
+          <div class="letter-ruled-line" style="width:94%;animation-delay:1.1s"></div>
+          <div class="letter-ruled-line" style="width:73%;animation-delay:1.2s"></div>
+          <div class="letter-ruled-line" style="width:90%;animation-delay:1.3s"></div>
+          <div class="letter-ruled-line" style="width:55%;animation-delay:1.4s"></div>
+        </div>
+        <p class="letter-read-hint">toca para leer mi carta completa 💌</p>
+      </div>
+      <!-- Sobre -->
+      <div class="env-wrap idle" id="env-wrap" role="button" aria-label="Abrir carta">
+        <div class="env-body">
+          <div class="env-fold-bottom"></div>
+          <div class="env-left-fold"></div>
+          <div class="env-right-fold"></div>
+          <div class="env-stamp">💌</div>
+          <div class="env-postmark">12 · 06<br>2026<br>MX→</div>
+          <div class="env-to">
+            <p class="env-to-label">Para:</p>
+            <p class="env-to-name">Jolyne García</p>
+          </div>
+        </div>
+        <div class="env-flap-wrap" id="env-flap-wrap">
+          <div class="env-flap"></div>
+        </div>
+        <div class="env-seal" id="env-seal">
+          <div class="seal-circle">M ♥ J</div>
+        </div>
+      </div>
+    </div>
+    <button id="open-letter-btn">Leer mi carta completa 💌</button>
+  </div>
+</section>
+
+<!-- Modal carta -->
+<div class="letter-modal-bg" id="letter-modal-bg">
+  <div class="letter-modal">
+    <button class="modal-close" id="modal-close" aria-label="Cerrar">✕</button>
+    <p class="modal-meta">12 · 06 · 2026 &nbsp;·&nbsp; De Maddie para Jolyne</p>
+    <div class="modal-body">
+      <p class="typed-line">Jolyne,</p>
+      <p class="typed-line">Antes que nada, quiero darte las gracias.</p>
+      <p class="typed-line">Gracias porque, de entre todas las personas que existen en este mundo, la vida decidió cruzar nuestros caminos aquel día en Facebook. A veces pienso en lo improbable que fue encontrarnos y no puedo evitar sentir que hubo algo más grande que nos llevó una hacia la otra.</p>
+      <p class="typed-line">Llegaste a mi vida en un momento en el que todo se sentía repetitivo. Vivía los días uno tras otro, en silencio, acostumbrada a la soledad y a la rutina. Y sin darme cuenta, empezaste a llenar esos espacios con risas, conversaciones, canciones, aventuras y momentos que hoy son algunos de mis recuerdos más felices.</p>
+      <p class="typed-line">Gracias porque contigo volví a sentir emoción por el mañana. Gracias porque volví a sentir ganas de vivir, de soñar, de construir y de compartir mi vida con alguien.</p>
+      <p class="typed-line">Gracias por abrirme tu corazón y permitirme entrar en él. Gracias por amarme con una paciencia, una ternura y una dedicación que jamás había conocido. Gracias por aceptarme incluso cuando yo misma he tenido dificultades para entenderme.</p>
+      <p class="typed-line">Si hoy soy una persona más feliz, más plena y con más ilusión por el futuro, es en gran parte porque tú formas parte de él.</p>
+      <p class="typed-line">Así que en tu cumpleaños quiero brindar por ti, por la mujer extraordinaria que eres, por todos los sueños que has cumplido, por todos los que aún nos esperan y, sobre todo, por nosotras.</p>
+      <p class="typed-line"><em>Porque de todos los regalos que la vida me ha dado, encontrarte a ti siempre será uno de los más valiosos.</em></p>
+    </div>
+    <div class="modal-sign">
+      Feliz cumpleaños, mi amor. Con todo mi corazón,
+      <strong>Maddie 💚</strong>
+    </div>
+  </div>
+</div>
+
+<!-- Overlay fotos / videos -->
+  <div id="photo-overlay">
+    <button id="photo-close">✕</button>
+    <div id="photo-expanded"></div>
+    <video id="overlay-video" controls></video>
+    <p id="photo-caption-big"></p>
+    <div id="video-timer-wrap"><div id="video-timer-bar"></div></div>
+    <span id="video-timer-label"></span>
+  </div>
+
+<!-- ══════════════════════════════════
+     FOOTER
+     ══════════════════════════════════ -->
+<footer>
+  <p class="footer-jojo">✦ &nbsp; JOLYNE GARCÍA · 29 AÑOS · 12 JUNIO 2026 &nbsp; ✦</p>
+  <p>Hecha con <span class="heart">♥</span> por Maddie &nbsp;·&nbsp; "Yare yare daze..." pero con amor a distancia</p>
+</footer>
+
+<!-- ══════════════════════════════════
+     SCRIPTS 
+     ══════════════════════════════════ -->
+<script src="js/splash.js"></script>
+<script src="js/sounds.js"></script>
+<script src="js/stars.js"></script>
+<script src="js/effects.js"></script>
+<script src="js/gallery3d.js"></script>
+<script src="js/music-player.js"></script>
+<script src="js/envelope.js"></script>
+<script src="js/razones.js"></script>
+
+</body>
+
+
+
+</html>
