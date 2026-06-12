@@ -51,7 +51,7 @@
 
       async function startLetterMusic() {
     try {
-      _letterAudio = new Audio('sounds/only.mp3');
+      _letterAudio = new Audio('sounds/only.MP3');
       _letterAudio.volume = 0;
 
       _letterAudio.play().catch(() => {});
